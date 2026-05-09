@@ -65,6 +65,9 @@ def parse_receipt(data):
     return receipt, items
 
 receipts_df, items_df = load_json_files(DATA_PATH)
+
+pd.set_option('display.max_columns', None)
+
 print(receipts_df.shape)
 print(receipts_df.head())
 

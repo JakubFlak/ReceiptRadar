@@ -12,7 +12,8 @@
             "alias": "warehouse",
             "type": "file",
             "path": "c:\\Users\\WIZBOX\\Desktop\\Projects\\ReceiptRadar\\data\\warehouse.db",
-            "attached": false
+            "readOnly": true,
+            "attached": true
         }
     ],
     "duckdb.defaultDatabase": "warehouse",

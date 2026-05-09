@@ -1,0 +1,269 @@
+{
+    "protoVersion": "000",
+    "IDZ": "c=98936b53d199457493eaf72dd3d3b522|g={8e1ce786-9249-4b52-ae40-f173dd0c7cd3}|s=2375|p=15|t=6198",
+    "deviceType": 2,
+    "printed": false,
+    "data": "eyJhbGciOiJSUzI1NiIsIng1YyI6WyJNSUlGUVRDQ0F5bWdBd0lCQWdJREROWmNNQTBHQ1NxR1NJYjNEUUVCQ3dVQU1JR2JNUXN3Q1FZRFZRUUdFd0pRVERFVU1CSUdBMVVFQ0F3TFRXRjZiM2RwWldOcmFXVXhFVEFQQmdOVkJBY01DRmRoY25ONllYZGhNU1F3SWdZRFZRUUxEQnREWlc1MGNuVnRJRU5sY25SNVptbHJZV05xYVNCbExVdGhjM2t4R3pBWkJnTlZCQW9NRWxCdmMyNWxkQ0JRYjJ4emEyRWdVeTVCTGpFZ01CNEdBMVVFQXd3WFVFOVRUa1ZVSUdVdFMyRnplU0JTYjI5MElFTkJJREV3SWhnUE1qQXlNekF6TWprd056SXdNRGhhR0E4eU1ETXpNRE15T0RBM01qQXdPRm93T3pFTE1Ba0dBMVVFQmhNQ1VFd3hGakFVQmdOVkJBTVREVVZCV2pJeU1ESXhOVE0yTWpVeEZEQVNCZ05WQkFvVEMxQnZjMjVsZENCVExrRXVNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXV0cEtob3BUWVFRWFlpeUR1TWdIMVVEelAxOTYyMVZLS2pOVmNsUERMYnZSK1BhR2F6OXhYbVpneEJvcUFkSkRkTUtuUGRFdkgzNHMvM0tnd1drTm95ZjNCVDRxaTA4MGh6aW53SG9vVmd1NTFPdHEzQXJ1VS9RV3lpNDNJaHhKK2xDcCtCMUdmc3F4cTFsdUc3bUkxalFHU2FnVkhNMlZKRWZ1bjVVSGk0SWh6bll3L2VhN3B6ZGdsdXcxL0ZlOHljT2M0UDFGSlR1RVU0TGNiOHNyTzZDamc3Z3YzbTMvWnFEZVlBM2xIS2dKaGNZcXNWcWdsOHA5SXVMZmg2VVZZTlZyWGV6NlhDUlJkWlFOT2pmTnZnVUViZU5sUFR3VW8wYjZ6aUZzaUdNYWVKWVhtQ0Mxb2taMGxCQlJTSmRrbXN4OUpRSWJ2K2tUSm92dHhOa1Rpd0lEQVFBQm80SG9NSUhsTUF3R0ExVWRFd0VCL3dRQ01BQXdIUVlEVlIwT0JCWUVGRU1pUEgrc21RZ2w2U09Ldi9hUDV0bWs3R1NYTUI4R0ExVWRJd1FZTUJhQUZFNElhYlJWR0FHTFJkSGlwZVNaeldHQmo0MUpNQTRHQTFVZER3RUIvd1FFQXdJRjREQTFCZ05WSFI4RUxqQXNNQ3FnS0tBbWhpUm9kSFJ3T2k4dlpXc3VjRzl6Ym1WMExtTnZiUzV3YkM5amNtd3ZjbU5oTVM1amNtd3dUZ1lEVlIwZ0JFY3dSVEJEQmdzckJnRUVBWU9mYmdFQkFUQTBNRElHQ0NzR0FRVUZCd0lCRmlab2RIUndjem92TDJWckxuQnZjMjVsZEM1amIyMHVjR3d2WTNCekwzSmpZVEV1YUhSdGJEQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FnRUF1czAra2R1OGdTM3dYaFBzOUc4cTVvMFhYd0Flc3ExS2hlenNJZVRhUVFrcXd0aWNybXZTTkY4ZXllTGRCK3llTjZvTGVDcjNEbnFJTEFzaHEwUlBoa2NVSkx2b1lyc2VOOGxDVnJsMDEvTHY5MWZqeHg5eHpvQXNlcTZsOEJLaG9SdG93bW8wbU1ZK09EYjBTaUxkU2VMSmt5RGdacjJ1bFFlVHJNSGJiNFYrTjNOZlRCVHZxOXZHc0poeEtuWkcvNmxWVmxlZVhmVTFTY0JRL1E0Ym5BSkg1ZFhhSHR0eVpGNHd2c2hvOUZRdDZrOGtNUWMxOVNmcm9ZdWMyY3JHMFd4OE53eDlqUVRYTGxUbENFcVlCcG9Hcjg2a1pxd2ttbjQydlhZOWg5ZHhMaWtUTm9xNlpNVnFKMlR6Y3lEbDBLZStBcXNPcW9SRFRubkFKTUdsa2c3a0F5eTlKTXdnNWxHNksvK1V1eXlHRXcrK1VjdXZlRVpBaGxHQTk2Zk1qbzRaZlllcjVOVEc4VDdrT2ZCWEdiQmtJeUoxQmtRQVB4RUxUMy83c0FTeC9LRnRWWGd4T1lpTzFiUEJCUGREbjQxS0JhdnZIUjZvcmF5RDRuY1RLTSt0a1B5SlYrZ250YVFtS2duVHY5UmVMQ1Yxc2RDZmZWS3RvQkhGd0xxSjI2S0J5SW5HR2toSkZlK0VDeVFJdWQraHdmb2YrRWFZaUFXUDlCczZHQm1rN2JQZUsyRTdYbEhyQVdFejg3ZEk0UWo5bjhWQkU1dFZMQnpkNVd5NW5vNWZWUThyekdrR2VySnY2Z0NqY0VDMlMwamNuRjhnWnkyN0hmNTFPWG1EN05YZ25RZUwrSXY4YmVPeURRdFRCUjh1eHBRYnZOVzlIZC9Hd2w2MldFOD0iXSwianBrbWV0YWRhdGEiOiJleUpqYjNKeVpXeGhkR2x2Ymtsa0lqb2lWRVpFTGtWQldqSXlNREl4TlRNMk1qVXVNakF5TXkwd05TMHhPRlF3TmpvME1Eb3dNQzQxTWpSYUluMCIsImVQYXJhZ29uLm1mLmdvdi5wbCI6ImV5SjNaWEp6YW1FaU9pSktVRXRmUzBGVFFWOVFRVkpCUjA5T1gzWXlMVEFpTENKS1VFdEpSQ0k2SWpBd01UQXdNREF3TURBd01EUXhOVGM1TnlJc0ltUmhkR0ZLVUVzaU9pSXlNREkyTFRBekxURXdWREU0T2pBMU9qRTJMakF3TUZvaUxDSktVRXRTUlVZaU9uc2lTbEJMU1VRaU9pSXdNREV3TURBd01EQXdNREEwTVRVM09UVWlMQ0pUU0VFeU5UWWlPaUk0UVRjek1qTkNSamMwTVRZd1JrWkRSVFkyTlVSR01VSkdSVFF4T0VVeFFqQXdRMFE1T1RsQ01qVTRSVE16TkRZMFFVWTJNa0pFTXpCRlJrTTBORUZGSW4xOSJ9.eyJkb2t1bWVudCI6eyJuYWdsb3dlayI6eyJ3ZXJzamEiOiJKUEtfS0FTQV9QQVJBR09OX3YyLTAiLCJkYXRhSlBLIjoiMjAyNi0wMy0xMFQxODowNToxNi4wMDBaIn0sInBvZG1pb3QxIjp7Ik5JUCI6Ijc3OTEwMTEzMjciLCJuYXp3YVBvZCI6IkpFUk9OSU1PIE1BUlRJTlMgUE9MU0tBIFMuQS4iLCJhZHJlc1BvZCI6eyJrb2RQb2N6dCI6IjUzLTQyMSIsIm1pZWpzYyI6IldST0PFgUFXIiwidWxpY2EiOiLFu0VMQVpOQSA1NC01Ni8xIn0sIm5yVW5payI6IkVBWjIyMDIxNTM2MjUiLCJuckZhYnIiOiJQTzExNDA0NTU1NiIsIm5yRXdpZCI6IjIwMjMvMDAwMDg4MTcyIn0sInBhcmFnb24iOnsiSlBLSUQiOjQxNTc5NywicGFtaWVjQ2hyIjoxLCJuckRvayI6NDE0MzYxLCJwb3p5Y2phIjpbeyJ0b3dhciI6eyJicnV0dG8iOjY1NywiY2VuYSI6MjE5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMyIsIm5hendhIjoiSm9nIFNreXIgTmF0dSAxNTBnICAgICAgIEMiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjo1OTgsImNlbmEiOjI5OSwiaWRTdFBUVSI6IkMiLCJpbG9zYyI6IjIiLCJuYXp3YSI6Ik1venphcmVsbGFMaWdodDEyNWcgICAgICBDIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6OTk4LCJjZW5hIjo0OTksImlkU3RQVFUiOiJBIiwiaWxvc2MiOiIyIiwibmF6d2EiOiJCYXRvblByb3RlaW5vd3k0OWcgICAgICAgQSIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjY0OSwiY2VuYSI6NjQ5LCJpZFN0UFRVIjoiQSIsImlsb3NjIjoiMSIsIm5hendhIjoiUGFwaWVyIFF1ZWVuQmlhxYJYOCAgICAgICBBIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6ODk5LCJjZW5hIjoxNDk5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMSIsIm5hendhIjoiUG9taWRvclBhcHJ5Y3o1MDBnICAgICAgIEMiLCJvcGVyIjpmYWxzZSwicmFiYXQiOnsib3BpcyI6IjEiLCJ3YXJ0IjotNjAwfX19LHsidG93YXIiOnsiYnJ1dHRvIjoyMjksImNlbmEiOjIyOSwiaWRTdFBUVSI6IkMiLCJpbG9zYyI6IjEiLCJuYXp3YSI6IlNlcmVrV2llanNMZWtrMjAwZyAgICAgICBDIiwib3BlciI6ZmFsc2V9fSx7InRvd2FyIjp7ImJydXR0byI6MzQ0LCJjZW5hIjoxODk5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMCwyNjUiLCJuYXp3YSI6IlBhcHJ5a2EgU8WCb2RrYSBDemVydyAgICAgQyIsIm9wZXIiOmZhbHNlLCJyYWJhdCI6eyJvcGlzIjoiMSIsIndhcnQiOi0xNTl9fX0seyJ0b3dhciI6eyJicnV0dG8iOjM0OSwiY2VuYSI6MzQ5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMSIsIm5hendhIjoiS2FsYXJlcGEgU3p0ICAgICAgICAgICAgIEMiLCJvcGVyIjpmYWxzZX19LHsidG93YXIiOnsiYnJ1dHRvIjo1OTksImNlbmEiOjU5OSwiaWRTdFBUVSI6IkMiLCJpbG9zYyI6IjEiLCJuYXp3YSI6Ik9nw7NyZWsgU3prbGFyIHN6dCAgICAgICAgQyIsIm9wZXIiOmZhbHNlfX0seyJ0b3dhciI6eyJicnV0dG8iOjQxOSwiY2VuYSI6NDE5LCJpZFN0UFRVIjoiQyIsImlsb3NjIjoiMSIsIm5hendhIjoiSHVtbXVzS2xhc3ljejE2MGdOICAgICAgIEMiLCJvcGVyIjpmYWxzZX19XSwic3RQVFUiOlt7ImlkIjoiQSIsIndhcnQiOjIzMDB9LHsiaWQiOiJCIiwid2FydCI6ODAwfSx7ImlkIjoiQyIsIndhcnQiOjUwMH0seyJpZCI6IkQiLCJ3YXJ0IjowfSx7ImlkIjoiRSIsIndhcnQiOiJaVyJ9LHsiaWQiOiJGIiwid2FydCI6MTcwMH0seyJpZCI6IkciLCJ3YXJ0IjowfV0sInBvZHN1bSI6eyJ3YWx1dGEiOiJQTE4iLCJzdW1hQnJ1dHRvIjo1NzQxLCJzdW1hUG9kIjo1MDMsInN1bWFPcHVzdCI6LTc1OSwic3VtYU5ldHRvIjpbeyJpZFN0UFRVIjoiQSIsImJydXR0byI6MTY0NywidmF0IjozMDh9LHsiaWRTdFBUVSI6IkMiLCJicnV0dG8iOjQwOTQsInZhdCI6MTk1fV19LCJ0b3RhbCI6eyJ6YXBsWndyb3QiOjU3NDF9LCJwbGF0bm9zYyI6W3sicmVzenRhIjpmYWxzZSwiZm9ybWEiOiIxMCIsIndhcnQiOjU3NDEsIm5hendhIjoiQkxJSyJ9XSwiemFrU3ByemVkIjoiMjAyNi0wMy0xMFQxODowNToxNi4wMDBaIiwibnJLYXN5IjoiS2FzYSAxNSIsImthc2plciI6Ikthc2plciBuciAyMiIsIm5yUGFyYWciOjIzNCwiZ3JhZmlrYSI6MX19fQ.WbUq3bsiAa2QnZbs3Sqw8odPppkDEQveTQNGlLfHLo8vZL_-i2_pbKMMPj5vEOmTshmQfoOrLSAZ-sfdLVjQ2NzXfLv6ijJD1_ffgcyxn6KhZfJdEC28JAOhdts3PmzLtC1clp3zZHwr5-eU7zv8v_zOY8va6Wy4_qe7_8lwX1K0gEQKQwcDLkb_Zew4wdI1IRJV9hZ9UoOcJjEEIZ-v_dBC7wNDu8mYjbGPQdr1928lfypUCzuf9n1_aGBUWz3jxb-TRo9HcyeZ0EWje4fL0g_tVT2AAYvB6Pwy8HWvzYUDsvfTjxdh1v8zkBDCHNHvJAhJfLoNbLYnHU8liYo-Uw",
+    "header": [
+        {
+            "image": {
+                "id": "EAZ2202153625-1-385593",
+                "hash": "DmwwvSQRHLaIxnrFwFSH2ZMvlLZHRrslUP5n\/gwzXpU=",
+                "data": "Qk02FwAAAAAAAD4AAAAoAAAAMAEAAJMAAAABAAEAAAAAAPgWAAAjLgAAIy4AAAAAAAAAAAAAAAAAAP\/\/\/wD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/wAAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/AAAAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/ AAAAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/ ABVVAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/ AAAAAAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/ AVaqqqAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf\/\/\/\/\/wAA\/\/\/\/AAAAAAAFVVVVVVVaqqqqqqqqqqqqVVVVVVVVVVVVQD\/\/\/\/8AAP\/\/\/wqqVVVVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/\/AAD\/\/\/8AAAAAAAAqqqqqqqVVVVVVVVVVVVWqqqqqqqqqqqqlUf\/\/\/wAA\/\/\/\/FVJUqqqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB\/\/\/8AAP\/\/\/wAFqgAAABVVVVVVWqqqqqqqqqqqqlVVVVVVVVVVVVqqn\/\/\/AAD\/\/x8KqlVAFVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf\/\/wAA\/\/4fFVWqAAAAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/VVX\/\/8AAP\/8HwqqVAACqoFVVVVVWqqqqqqqqqqqqlVVVVVVVVVVVVqAAP\/\/AAD\/\/A8VVagAAAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ qp\/\/wAA\/\/gPCqpQAAVVUKqqqqqlVVVVVVVVVVVVqqqqqqqqqqqqpVYAP\/8AAP\/wDxVVoAACAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/1V\/\/AAD\/4IYKqlAAAVKoVVVVVVqqqqqqqqqqqqpVVVVVVVVVVVVaqqAP\/wAA\/8EAFVWgAAKoAD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/6p\/8AAP\/CgAqqUAABVVUKqqqqpVVVVVVVVVVVVaqqqqqqqqqqqqVVUAP\/AAD\/hUAVVagAAqoAH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/x\/1V\/wAA\/wqACqpUAAVVKoVVVVVaqqqqqqqqqqqqVVVVVVVVVVVVWqKqAf8AAP8FQBVVqgAKqoAH\/\/\/\/\/\/\/\/\/\/H\/\/\/\/8f\/\/\/x\/\/\/x\/8fD\/\/j\/6r\/AAD\/CoAKqlVAVVUBQqqqD4FgEBjAYxjEcBWjEYOYxwGqCgY40VUA\/wAA\/hVAFVWqqqqqgAf\/\/AcAwDAYxmMYzGMf4xmZmMYx\/ExmePH\/1X8AAP4VQBVVqqqqqoAH\/\/wHAMAwGMZjGMxjH MZmZjGMfxMZnjx\/9V\/AAD KqAKqlVVVVVAoVVYZjxGKOiP4xjEY pjEXkBRn9U P44oKqAfwAA\/BVABVWqqqqqgAP\/ P48Rjx4gGMYzGAf4xnhh8YB\/PgGeOD\/6r8AAPwqoAqqVVVVVUBQqrGqPEY2KI5jGMRjlaMRgoPGOajs5jjEVUA\/AAD4VVAFVaqqqqqAAf\/x\/jzGPzjOYxjMc5\/jGY Rxzn8TOZ4jH\/1XwAA CqgCqpVVVVVQAhVUVUAoDAIwKAoBHAqYBFBGMcDVgYOAIoqoB8AAPhVUAVVqqqqqqAA\/\/H\/gfEwH DgeB\/4P B\/45\/\/h\/8fHgP\/\/\/qvAADwqqgCqlVVVVVAFKqouqVVNVVVVVVVVVWqqqqaqqqqqqqlVVVQDwAA8VVQBVWqqqqqoAD\/ Gf\/\/z\/\/\/\/\/\/\/v\/\/\/\/\/\/n\/\/\/\/\/\/\/\/\/\/\/\/U8AAPCKqAKqVVVVVVAIVVQFWqoqqKqqqqxqqlVRVRVFVVVVVVqqqqgHAADxFVQFVaqqqqqoAH\/ D\/\/\/P\/j\/\/\/\/8f\/\/\/ f fx\/\/\/\/\/\/\/\/\/\/ pwAA4AqoAqpVFVVVVAQqqqqlVVVVVVVVVFVVqqiqqqqqqqqqpVVVVAcAAOAFVAFVqAKqqqoIf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/9TAADiCqoCqlAAVVVUBFVVVVqqqqqqqqqqqqpVVVVVVVVVVVVaqqqqAwAA4AVUAVWgACqqqqp\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/qsAAOIKqgCqQABVVVVUKqgABVAVwo1UIQNBVawA6wKoLAqgKoIQVVUDAADgBVUBVYAAKqqqqj\/4AAP4PwAD AADwf\/wAD8D DwPwD8AAH\/\/UwAA4gqqAKoAABVVVVQVWqqkqSpVU6VVUtWqaqqVKVK0pSpUpVVqqgMAAOAFVQFVgAAqqqqqP\/gAAPg AAHgAAPB\/8AADwP4PA8A\/AAAf\/ rAADiCqqAqgAAFVVVVCqpX1patKVBSoKrSVXVAUtSqS1KVKlH6lVVAwAA4AVVQFWAACqqqqo\/ BuAeDwf\/8B A8H\/gPwHA\/g8DAP4HqB\/\/1MAAOIKqoAqAAAVVVVUFVq\/5WkpWqrV1VLVq6uqpSlStKKlUr\/1aqoDAADhFVVAVYAAKqqqqj\/4FUB4OB\/\/wP8Dwf B\/gcD DwAD\/AlUH\/\/qwAA4rqqoCoAABVVVVQqqV\/aWrqgAMqrK0tVlVdXUqktVUq1f\/pVVQMAAOF1VUAVgAAqqqqqf\/gawHg4AADA\/wPB\/4H BwP4PAAf8Dqwf\/9TAADguqqgKkAAVVVVVFVav6VpKVVU1dVS1KurqqWpUrSipVK\/9WqqAwAA4X1VUBWgAKqqqqp\/ AAA DwfwMB A8B\/gPwHA\/A8CAf4HWB\/\/qcAAPC qqgKUAFVVVVUKqlVWVq0uulKnqtKlZVVS1SlLUlSqUfqVVQHAADxfUFUBagCqqqCqH\/4AAf4PA B4AADwAHAAA8AADwOAfwAAH\/9VwAA8L6AKApVVVVUAVRVWqqiqSpVUqVUUtRUSqqVKKq0pSpUpUVqqA8AAPBfABQFqqqqqgKo\/\/gcA\/g\/AAf4AQPBgfAAPwIAfA AfgAQf\/qvAAD4vgAKAlVVVVQBUKqpX1lQFQqFVKErQUGsAOsCAK1KgCsAMFVQDwAA F4ABQGqqqqoAqj\/ BUB\/\/\/gP\/8PA\/\/\/\/\/\/\/\/\/\/8D\/\/\/\/\/\/\/9V8AAPgsAAKCVVVVVAFRVVq\/paqqqqqqqlKqqlVVVVVVVKVVVVqqqqAfAAD8XAAFAaqqqqgCof\/4GwH\/\/\/\/\/\/\/8D\/\/\/\/\/\/\/\/\/\/wP\/\/\/\/\/\/\/qvwAA\/CwAAoBVVVVUAVKqqV9ZVFVVVVVVK1VVqqqqqqqtSqqqpVVVQD8AAP4UAAFAKqqqqAKj\/\/gAA\/g\/\/\/\/\/\/wP\/\/\/\/\/\/\/\/\/\/A\/\/\/\/\/\/\/9U\/AAD CgACoBVVVVQFRVVaqqK1WqqqqqpSqqpVVVVVVVSlVVVaqqqAfwAA\/hYAAVAqqqqqAoP\/ AAH8B\/\/\/\/\/\/A\/\/\/\/\/\/\/\/\/\/8D\/\/\/\/\/\/\/qn8AAP8LAAKgFVVVVRUCqqgABVKVVVVVVStVVaqqqqqqrAqqqqVVVQD\/AAD\/BYAFUAqqqqqqj\/\/\/\/\/\/4P\/\/\/\/\/ H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/9U\/wAA\/4KAAqgFVVVQFRVVVVVaqqqqqqqqqqqqVVVVVVVVVVVVWqqoAf8AAP BQAVUAqqoAAIf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ qv\/AAD\/wrAKqgFVUAAAKqqqqqVVVVVVVVVVVVWqqqqqqqqqqqqlVVAH\/wAA\/ FcFVWAqoAAAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/1T\/8AAP\/wr qqQFUB\/\/wFVVVVWqqqqqqqqqqqqlVVVVVVVVVVVVqqgB\/\/AAD\/ Ff1VaAoB\/\/\/gf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/qq\/\/wAA\/\/wr qpAUB\/4D8CqqqqlVVVVVVVVVVVVqqqqqqqqqqqqpVQAf\/8AAP\/ Ff1VoCB\/gAHwf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/VVP\/\/AAD\/\/wqCqlAA\/wAAeBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/wAA\/\/ FAFWoAfwAADwFVVVaqqqqqqqqqqqqVVVVVVVVVVVVWqqn\/\/8AAP\/\/wIAKVAP4AAAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD\/\/\/AAD\/\/ BAD6oH8AAAD4KqqqVVVVVVVVVVVVWqqqqqqqqqqqqlVD\/\/\/wAA\/\/\/4IAfVD\/AAAAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\/\/\/8AAP\/\/\/BQH h\/gAAADwVVVWqqqqqqqqqqqqlVVVVVVVVVVVVqH\/\/\/\/AAD\/\/\/4Cq\/wfwAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf\/\/\/\/wAA\/\/\/\/AFWoP8AH\/AHg\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/8AKVH A\/\/\/g8P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/wACh8g\/\/\/\/\/B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/AAA\/g\/\/\/\/\/4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/gAP8f\/\/\/B H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/gH\/j\/\/\/gPw\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/h\/ \/\/\/5j8P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/4f\/\/\/\/ I\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/ H\/\/\/H\/w\/4\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/D\/\/\/h\/\/\/ H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/w\/\/\/wP\/\/\/h\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/8P\/\/4D\/\/\/4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/D\/\/ A\/\/\/ H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/w\/\/\/AP\/\/\/h\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/8P\/\/wH\/ H4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/D\/\/8B\/\/B H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/4\/\/ Af\/gfh\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/ P\/\/gH\/4H4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/h\/\/4D\/ B P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/4f\/ A\/\/AfD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/ H\/\/gf\/wPw\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/h\/\/ H\/8D8P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/8P\/\/D\/ B H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/D\/\/x\/\/gfh\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/4f\/\/\/\/6Pwf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/ H\/\/\/\/\/H8P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/g\/\/\/\/\/h D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/4H\/\/\/\/9\/A\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/B\/\/\/\/\/\/wf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/4P\/\/\/\/\/4P\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/ B\/\/\/\/\/8D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/wP\/\/\/\/ B\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/ B\/\/\/\/\/A\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/AP\/\/\/\/gf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/gA\/\/\/\/gP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/wYD\/\/\/gH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/8HAH\/\/gH\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/ D4Af\/AD\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/B\/AAAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/g\/8AAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/wAf\/wAAB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/4Af\/\/AAf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/ Af\/\/wf\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/gP\/\/ H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/8H\/\/\/h\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/8f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/4f\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/4MP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/AB\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/8Af\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/4H\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAD\/\/\/\/\/\/\/\/\/\/\/\/D\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/wAA\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/8AAP\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/AAA="
+            }
+        },
+        {
+            "headerText": {
+                "headerTextLines": "<div class=\"align-center \">BIEDRONKA&nbsp;&quot;CODZIENNIE&nbsp;NISKIE&nbsp;CENY&quot;&nbsp;2375<\/div><div class=\"align-center \">53-421&nbsp;WROC\u0141AW&nbsp;UL.&nbsp;\u017bELAZNA&nbsp;54-56\/1<\/div><div class=\"align-center \">JERONIMO&nbsp;MARTINS&nbsp;POLSKA&nbsp;S.A.<\/div><div class=\"align-center \">62-025&nbsp;KOSTRZYN&nbsp;UL.\u017bNIWNA&nbsp;5<\/div>"
+            }
+        },
+        {
+            "headerData": {
+                "tin": "7791011327",
+                "docNumber": 414361,
+                "date": "2026-03-10T18:05:16.000Z",
+                "CPS": 56
+            }
+        }
+    ],
+    "body": [
+        {
+            "sellLine": {
+                "name": "Jog Skyr Natu 150g       C",
+                "vatId": "C",
+                "price": 219,
+                "total": 657,
+                "quantity": "3",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "MozzarellaLight125g      C",
+                "vatId": "C",
+                "price": 299,
+                "total": 598,
+                "quantity": "2",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "BatonProteinowy49g       A",
+                "vatId": "A",
+                "price": 499,
+                "total": 998,
+                "quantity": "2",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Papier QueenBia\u0142X8       A",
+                "vatId": "A",
+                "price": 649,
+                "total": 649,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "PomidorPaprycz500g       C",
+                "vatId": "C",
+                "price": 1499,
+                "total": 1499,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "discountLine": {
+                "base": 1499,
+                "value": 600,
+                "isDiscount": true,
+                "isPercent": false,
+                "isStorno": false,
+                "vatId": "C"
+            }
+        },
+        {
+            "sellLine": {
+                "name": "SerekWiejsLekk200g       C",
+                "vatId": "C",
+                "price": 229,
+                "total": 229,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Papryka S\u0142odka Czerw     C",
+                "vatId": "C",
+                "price": 1899,
+                "total": 503,
+                "quantity": "0,265",
+                "isStorno": false
+            }
+        },
+        {
+            "discountLine": {
+                "base": 503,
+                "value": 159,
+                "isDiscount": true,
+                "isPercent": false,
+                "isStorno": false,
+                "vatId": "C"
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Kalarepa Szt             C",
+                "vatId": "C",
+                "price": 349,
+                "total": 349,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "Og\u00f3rek Szklar szt        C",
+                "vatId": "C",
+                "price": 599,
+                "total": 599,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "sellLine": {
+                "name": "HummusKlasycz160gN       C",
+                "vatId": "C",
+                "price": 419,
+                "total": 419,
+                "quantity": "1",
+                "isStorno": false
+            }
+        },
+        {
+            "discountSummary": {
+                "discounts": 759
+            }
+        },
+        {
+            "vatSummary": {
+                "currency": "PLN",
+                "vatRatesSummary": [
+                    {
+                        "vatId": "A",
+                        "vatRate": 2300,
+                        "vatSale": 1647,
+                        "vatAmount": 308
+                    },
+                    {
+                        "vatId": "C",
+                        "vatRate": 500,
+                        "vatSale": 4094,
+                        "vatAmount": 195
+                    }
+                ]
+            }
+        },
+        {
+            "sumInCurrency": {
+                "fiscalTotal": 5741,
+                "totalWithPacks": 5741,
+                "currency": "PLN",
+                "printBig": true,
+                "printable": true
+            }
+        },
+        {
+            "section": {
+                "type": 3
+            }
+        },
+        {
+            "payment": {
+                "type": "10",
+                "amount": 5741,
+                "name": "BLIK",
+                "currency": "PLN"
+            }
+        },
+        {
+            "fiscalFooter": {
+                "billNumber": 234,
+                "uniqueNumber": "EAZ2202153625",
+                "cashNumber": "Kasa 15",
+                "cashier": "Kasjer nr 22",
+                "CPS": 56,
+                "date": "2026-03-10T18:05:16.000Z"
+            }
+        },
+        {
+            "addLine": {
+                "id": 0,
+                "data": "<div class=\"align-left \">Nr&nbsp;transakcji:<span class=\"float-right \">6198<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 30,
+                "data": "<div class=\"align-left \">Numer:<span class=\"float-right \">2375260310619815<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 41,
+                "data": "<div class=\"align-left \">Udzielono&nbsp;\u0142\u0105cznie&nbsp;rabat\u00f3w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"font-wide \">7,59<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 41,
+                "data": "<div class=\"align-left \">w&nbsp;tym:<\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 41,
+                "data": "<div class=\"align-left \">&nbsp;&nbsp;Promocje&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"font-wide \">7,59<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "addLine": {
+                "id": 6,
+                "data": "<div class=\"align-left \">Numer&nbsp;karty:<span class=\"float-right \">99577*****809<\/span><\/div>",
+                "width": 80,
+                "CPS": 56
+            }
+        },
+        {
+            "barcode": {
+                "id": 5,
+                "data": "MTAwMDAyMzc1NjE5ODIyNjAxNTE3NQ=="
+            }
+        },
+        {
+            "sysNumber": {
+                "data": "6198",
+                "width": 80,
+                "CPS": 56
+            }
+        }
+    ],
+    "sign": "59B52ADDBB2201AD909D96ECDD2AB0F2874FA69903110BDE4D034694B7C72E8F2F64BFFE8B6FE96CA30C3E3E6F10E993B219907E83AB2D2019FAC7DD2D58D0D8DCD77CBBFA8A3243D7F7DF81CCB19FA2A165F25D102DBC2403A176DB373E6CCBB42D5C969DF3647C2BE7E794EF3BFCBFFCCE63CBDAE96CB8FEA7BBFFC9705F52B480440A4307032E46FF65EC38C1D235211255F6167D52839C263104219FAFFDD042EF0343BBC9988DB18F41DAF5F76F257F2A540B3B9FF67D7F6860545B3DE3C5BF93468F47732799D045A37B87CBD20FED553D80018BC1E8FC32F075AFCD8503B2F7D38F1761D6FF339010C21CD1EF2408497CBA0D6CB6271D4F25898A3E53"
+}

@@ -7,15 +7,7 @@
         "*.xlsx": "duckdb.dataFileViewer",
         "*.db": "duckdb.tableViewer"
     },
-    "duckdb.databases": [
-        {
-            "alias": "warehouse",
-            "type": "file",
-            "path": "c:\\Users\\WIZBOX\\Desktop\\Projects\\ReceiptRadar\\data\\warehouse.db",
-            "readOnly": true,
-            "attached": true
-        }
-    ],
+    "duckdb.databases": [],
     "duckdb.defaultDatabase": "warehouse",
     "sqltools.connections": [
         {

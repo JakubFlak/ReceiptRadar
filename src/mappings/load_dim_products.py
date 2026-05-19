@@ -9,7 +9,7 @@ DB_PATH = "data/warehouse/warehouse.db"
 
 mapping_df = pd.read_csv(
     MAPPING_PATH,
-    sep=","
+    sep=";"
 )
 
 print("\n=== CSV CHECK ===")

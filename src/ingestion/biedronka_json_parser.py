@@ -2,6 +2,8 @@ from pathlib import Path
 import json
 import pandas as pd
 import duckdb
+from src.utils.product_cleaning import clean_raw_name
+
 
 
 DATA_PATH = Path("data/raw/biedronka/json")
@@ -32,7 +34,7 @@ def parse_receipt(data):
 
             current_item = {
                 "receipt_id": receipt["receipt_id"],
-                "raw_name": sl["name"].strip().rsplit(" ", 1)[0],
+                "raw_name": clean_raw_name(sl["name"]),
                 "quantity": float(sl["quantity"].replace(",", ".")),
                 "unit_price": sl["price"] / 100,
                 "total_price": sl["total"] / 100,

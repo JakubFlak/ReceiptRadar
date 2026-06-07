@@ -22,5 +22,5 @@ LEFT JOIN bronze_receipts br
     ON bri.receipt_id = br.receipt_id
 
 LEFT JOIN dim_products dp
-    ON TRIM(bri.raw_name) = TRIM(dp.raw_name)
+    ON bri.raw_name = dp.raw_name
     AND br.store = dp.store

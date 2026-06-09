@@ -105,3 +105,5 @@ def load_biedronka():
 
     print(f"Receipts: {len(receipts_df)}")
     print(f"Items: {len(items_df)}")
+
+    con = load_to_duckdb(receipts_df, items_df)

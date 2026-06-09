@@ -13,12 +13,7 @@ def load_dim_products():
         sep=";"
     )
 
-    print("\n=== CSV CHECK ===")
-    print(mapping_df.head())
-    print(mapping_df.shape)
-
-    print("\n=== NULL CHECK ===")
-    print(mapping_df.isnull().sum())
+    print("Mapped products: ", len(mapping_df))
 
 
     con = duckdb.connect(DB_PATH)
@@ -29,14 +24,3 @@ def load_dim_products():
     CREATE OR REPLACE TABLE dim_products AS
     SELECT * FROM mapping_temp
     """)
-
-
-    print("\n=== DIM_PRODUCTS CHECK ===")
-
-    print(
-        con.execute("""
-        SELECT *
-        FROM dim_products
-        LIMIT 10
-        """).fetchdf()
-    )

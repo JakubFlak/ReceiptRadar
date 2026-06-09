@@ -1,33 +1,13 @@
 from pathlib import Path
 import duckdb
 
+def run_silver_models():
+    con = duckdb.connect("data/warehouse/warehouse.db")
 
-DB_PATH = "data/warehouse/warehouse.db"
+    silver_folder = Path("sql/silver")
 
-SQL_PATH = Path(
-    "sql/silver/silver_receipt_items.sql"
-)
+    for sql_file in sorted(silver_folder.glob("*.sql")):
+        print(f"Running {sql_file.name}")
 
-
-con = duckdb.connect(DB_PATH)
-
-with open(SQL_PATH, "r") as f:
-    query = f.read()
-
-con.execute(query)
-
-print(
-    con.execute("""
-    SELECT *
-    FROM silver_receipt_items
-    LIMIT 10
-    """).fetchdf()
-)
-
-print(
-    con.execute("""
-    SELECT DISTINCT raw_name
-    FROM silver_receipt_items
-    WHERE clean_name IS NULL
-    """).fetchdf()
-)
+        query = sql_file.read_text(encoding="utf-8")
+        con.execute(query)

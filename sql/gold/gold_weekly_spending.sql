@@ -1,10 +1,10 @@
-"
+/*
 How much do I spend weekly?
 How many shopping trips?
 What is average basket size?
 How much discount did I get?
 How many products bought?
-"
+*/
 CREATE OR REPLACE VIEW gold_weekly_spending AS
 
 

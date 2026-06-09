@@ -1,24 +1,14 @@
 from pathlib import Path
 import duckdb
 
+def run_gold_models():
 
-DB_PATH = "data/warehouse/warehouse.db"
+    con = duckdb.connect("data/warehouse/warehouse.db")
 
-SQL_PATH = Path(
-    "sql/gold/gold_category_spending.sql"
-)
+    gold_folder = Path("sql/gold")
 
+    for sql_file in sorted(gold_folder.glob("*.sql")):
+        print(f"Running {sql_file.name}")
 
-con = duckdb.connect(DB_PATH)
-
-with open(SQL_PATH, "r") as f:
-    query = f.read()
-
-con.execute(query)
-
-print(
-    con.execute("""
-    SELECT *
-    FROM gold_category_spending
-    """).fetchdf()
-)
+        query = sql_file.read_text(encoding="utf-8")
+        con.execute(query)

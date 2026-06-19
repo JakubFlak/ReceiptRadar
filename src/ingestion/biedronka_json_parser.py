@@ -84,18 +84,34 @@ def load_biedronka():
 
         con = duckdb.connect(DB_PATH)
 
-        con.register("receipts_temp", receipts_df)
+        con.register(
+            "receipts_temp",
+            receipts_df
+        )
 
         con.execute("""
-        CREATE OR REPLACE TABLE bronze_receipts AS
-        SELECT * FROM receipts_temp
+        INSERT INTO bronze_receipts
+        SELECT *
+        FROM receipts_temp
+        WHERE receipt_id NOT IN (
+            SELECT receipt_id
+            FROM bronze_receipts
+        )
         """)
 
-        con.register("items_temp", items_df)
+        con.register(
+            "items_temp",
+            items_df
+        )
 
         con.execute("""
-        CREATE OR REPLACE TABLE bronze_receipts_items AS
-        SELECT * FROM items_temp
+        INSERT INTO bronze_receipts_items
+        SELECT *
+        FROM items_temp
+        WHERE receipt_id NOT IN (
+            SELECT receipt_id
+            FROM bronze_receipts_items
+        )
         """)
 
         return con

@@ -1,4 +1,4 @@
-from src.ingestion.biedronka_json_parser import load_biedronka
+from src.warehouse.run_bronze_ingestion import run_bronze_ingestion
 from src.mappings.load_dim_products import load_dim_products
 from src.mappings.find_unmapped_products import find_unmapped_products
 from src.warehouse.run_silver_models import run_silver_models
@@ -11,7 +11,7 @@ def run_pipeline():
     create_bronze_tables()
 
     print("\nLoading raw receipts...")
-    load_biedronka()
+    run_bronze_ingestion()
 
     print("\nLoading product mapping...")
     load_dim_products()

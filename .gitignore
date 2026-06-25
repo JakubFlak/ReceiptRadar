@@ -1,6 +1,12 @@
 .venv/
 __pycache__/
 *.pyc
+*.pyo
 *.duckdb
+*.db
 *.csv
+*.log
+.DS_Store
+.pytest_cache/
+.notebook_checkpoints/
 notebooks/

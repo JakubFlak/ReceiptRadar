@@ -2,6 +2,8 @@ from pathlib import Path
 import pandas as pd
 import duckdb
 
+from src.mappings.load_dim_products import read_mapping_df
+
 
 # ==========================
 # MAIN ENTRYPOINT
@@ -19,7 +21,7 @@ def find_unmapped_products():
     print(f"Unmapped products: {len(unmapped_df)}")
 
     # 2. load mapping
-    mapping_df = pd.read_csv(MAPPING_PATH, sep=";")
+    mapping_df = read_mapping_df(MAPPING_PATH)
 
     # 3. update mapping CSV
     updated_mapping_df = update_mapping_csv(unmapped_df, mapping_df, MAPPING_PATH)
@@ -77,7 +79,7 @@ def update_mapping_csv(unmapped_df, mapping_df, mapping_path):
 
     combined_df = pd.concat([mapping_df, new_rows_df], ignore_index=True)
 
-    combined_df.to_csv(mapping_path, sep=";", index=False)
+    combined_df.to_csv(mapping_path, sep=",", index=False)
 
     return combined_df
 

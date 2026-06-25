@@ -107,7 +107,15 @@ def load_to_duckdb(con, receipts_df, items_df):
 
     con.execute("""
         INSERT INTO bronze_receipts_items
-        SELECT *
+        SELECT
+            t.receipt_id,
+            t.raw_name,
+            NULL AS product_id,
+            t.quantity,
+            t.unit_price,
+            t.total_price,
+            t.discount,
+            t.final_price
         FROM items_temp t
         WHERE NOT EXISTS (
             SELECT 1

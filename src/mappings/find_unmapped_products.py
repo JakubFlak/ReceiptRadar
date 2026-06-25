@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import duckdb
 
-from src.mappings.load_dim_products import read_mapping_df
+from src.mappings.load_dim_products import read_mapping_df, build_product_id
 
 
 # ==========================
@@ -46,9 +46,9 @@ def get_unmapped_products(con):
         LEFT JOIN bronze_receipts br
             ON bri.receipt_id = br.receipt_id
         LEFT JOIN dim_products dp
-            ON LOWER(TRIM(bri.raw_name)) = LOWER(TRIM(dp.raw_name))
-            AND LOWER(TRIM(br.store)) = LOWER(TRIM(dp.store))
-        WHERE dp.raw_name IS NULL
+            ON bri.product_id = dp.product_id
+        WHERE COALESCE(bri.product_id, '') = ''
+           OR dp.product_id IS NULL
         ORDER BY bri.raw_name
     """).fetchdf()
 
@@ -76,6 +76,7 @@ def update_mapping_csv(unmapped_df, mapping_df, mapping_path):
     new_rows_df["clean_name"] = ""
     new_rows_df["category"] = ""
     new_rows_df["subcategory"] = ""
+    new_rows_df["product_id"] = new_rows_df.apply(build_product_id, axis=1)
 
     combined_df = pd.concat([mapping_df, new_rows_df], ignore_index=True)
 

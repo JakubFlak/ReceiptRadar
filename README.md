@@ -1,6 +1,6 @@
 # ReceiptRadar
 
-[![Python tests](https://github.com/<your-username>/<your-repo>/actions/workflows/python-tests.yml/badge.svg)](https://github.com/<your-username>/<your-repo>/actions/workflows/python-tests.yml)
+[![Python tests](https://github.com/JakubFlak/ReceiptRadar/actions/workflows/python-tests.yml/badge.svg)](https://github.com/JakubFlak/ReceiptRadar/actions/workflows/python-tests.yml)
 
 ReceiptRadar is a small data pipeline project for processing supermarket receipts from multiple stores and building analytical views from them.
 

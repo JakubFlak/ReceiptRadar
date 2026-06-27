@@ -18,6 +18,8 @@ SELECT
 
 FROM silver_receipt_items
 
+WHERE is_food = true
+
 GROUP BY 1
 
 ORDER BY month_start;

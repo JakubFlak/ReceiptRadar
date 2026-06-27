@@ -19,6 +19,8 @@ WITH receipt_totals AS (
 
     FROM silver_receipt_items
 
+    WHERE is_food = true
+
     GROUP BY receipt_id, date
 
 )

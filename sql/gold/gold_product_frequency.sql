@@ -8,12 +8,15 @@ WITH product_weeks AS (
 
     FROM silver_receipt_items
 
+    WHERE is_food = true
+
 ),
 
 total_weeks AS (
 
     SELECT COUNT(DISTINCT DATE_TRUNC('week', date)) AS total_weeks
     FROM silver_receipt_items
+    WHERE is_food = true
 
 )
 

@@ -9,6 +9,7 @@ SELECT
     dp.clean_name,
     dp.category,
     dp.subcategory,
+    dp.is_food,
 
     bri.quantity,
     bri.unit_price,

@@ -4,21 +4,22 @@ WITH receipt_totals AS (
 
     SELECT
         receipt_id,
-        date,
+
+        CAST(date AS DATE) AS receipt_date,
+
         SUM(final_price) AS receipt_total,
         SUM(discount) AS receipt_discount,
         COUNT(*) AS item_count
 
     FROM silver_receipt_items
-
     WHERE is_food = true
 
-    GROUP BY receipt_id, date
+    GROUP BY receipt_id, CAST(date AS DATE)
 
 )
 
 SELECT
-    DATE_TRUNC('month', date) AS month_start,
+    DATE_TRUNC('month', receipt_date)::DATE AS month_start,
 
     COUNT(receipt_id) AS receipt_count,
 
@@ -39,5 +40,4 @@ SELECT
 FROM receipt_totals
 
 GROUP BY 1
-
-ORDER BY 1
+ORDER BY 1;

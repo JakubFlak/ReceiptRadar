@@ -1,7 +1,24 @@
 CREATE OR REPLACE VIEW gold_category_spending AS
 
+WITH base AS (
+
+    SELECT
+        CAST(date AS DATE) AS receipt_date,
+        category,
+        subcategory,
+
+        quantity,
+        final_price,
+        discount
+
+    FROM silver_receipt_items
+    WHERE is_food = true
+
+)
+
 SELECT
-    DATE_TRUNC('month', date) AS month_start,
+    DATE_TRUNC('month', receipt_date)::DATE AS month_start,
+
     category,
     subcategory,
 
@@ -13,14 +30,10 @@ SELECT
 
     ROUND(SUM(discount), 2) AS total_discount
 
-FROM silver_receipt_items
-
-WHERE is_food = true
+FROM base
 
 GROUP BY
-    1,
-    2,
-    3
+    1, 2, 3
 
 ORDER BY
     month_start,

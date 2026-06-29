@@ -42,13 +42,14 @@ def test_run_pipeline_on_isolated_test_data(tmp_path, monkeypatch):
 
     run_pipeline()
 
-    con = duckdb.connect(str(root / "data" / "warehouse" / "warehouse.db"))
-    receipt_count = con.execute("SELECT COUNT(*) FROM bronze_receipts").fetchone()[0]
-    item_count = con.execute("SELECT COUNT(*) FROM bronze_receipts_items").fetchone()[0]
-    unmapped_count = con.execute(
-        "SELECT COUNT(*) FROM bronze_receipts_items WHERE product_id IS NULL OR product_id = ''"
-    ).fetchone()[0]
+    with duckdb.connect(str(root / "data" / "warehouse" / "warehouse.db")) as con:
 
-    assert receipt_count >= 2
-    assert item_count >= 2
-    assert unmapped_count == 0
+        receipt_count = con.execute("SELECT COUNT(*) FROM bronze_receipts").fetchone()[0]
+        item_count = con.execute("SELECT COUNT(*) FROM bronze_receipts_items").fetchone()[0]
+        unmapped_count = con.execute(
+            "SELECT COUNT(*) FROM bronze_receipts_items WHERE product_id IS NULL OR product_id = ''"
+        ).fetchone()[0]
+
+        assert receipt_count >= 2
+        assert item_count >= 2
+        assert unmapped_count == 0

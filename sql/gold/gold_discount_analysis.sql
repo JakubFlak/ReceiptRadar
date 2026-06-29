@@ -1,7 +1,23 @@
 CREATE OR REPLACE VIEW gold_discount_analysis AS
 
+WITH base AS (
+
+    SELECT
+        receipt_id,
+
+        CAST(date AS DATE) AS receipt_date,
+
+        total_price,
+        discount,
+        final_price
+
+    FROM silver_receipt_items
+    WHERE is_food = true
+
+)
+
 SELECT
-    DATE_TRUNC('month', date) AS month_start,
+    DATE_TRUNC('month', receipt_date)::DATE AS month_start,
 
     ROUND(SUM(total_price), 2) AS gross_spend,
 
@@ -16,10 +32,7 @@ SELECT
         2
     ) AS discount_pct
 
-FROM silver_receipt_items
-
-WHERE is_food = true
+FROM base
 
 GROUP BY 1
-
-ORDER BY month_start;
+ORDER BY 1;

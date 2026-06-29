@@ -13,24 +13,24 @@ def find_unmapped_products():
     DB_PATH = "data/warehouse/warehouse.db"
     MAPPING_PATH = Path("data/mappings/products.csv")
 
-    con = duckdb.connect(DB_PATH)
+    with duckdb.connect(DB_PATH) as con:
 
-    # 1. detect
-    unmapped_df = get_unmapped_products(con)
+        # 1. detect
+        unmapped_df = get_unmapped_products(con)
 
-    print(f"Unmapped products: {len(unmapped_df)}")
+        print(f"Unmapped products: {len(unmapped_df)}")
 
-    # 2. load mapping
-    mapping_df = read_mapping_df(MAPPING_PATH)
+        # 2. load mapping
+        mapping_df = read_mapping_df(MAPPING_PATH)
 
-    # 3. update mapping CSV
-    updated_mapping_df = update_mapping_csv(unmapped_df, mapping_df, MAPPING_PATH)
+        # 3. update mapping CSV
+        updated_mapping_df = update_mapping_csv(unmapped_df, mapping_df, MAPPING_PATH)
 
-    # 4. refresh dim table
-    sync_dim_products(con, updated_mapping_df)
+        # 4. refresh dim table
+        sync_dim_products(con, updated_mapping_df)
 
-    print("\n=== MAPPING UPDATED ===")
-    print(f"Mapping size: {len(updated_mapping_df)}")
+        print("\n=== MAPPING UPDATED ===")
+        print(f"Mapping size: {len(updated_mapping_df)}")
 
 
 # ==========================

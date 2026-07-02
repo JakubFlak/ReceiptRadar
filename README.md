@@ -8,7 +8,7 @@
 ![receipts](https://img.shields.io/badge/receipts-48-blue)
 ![products](https://img.shields.io/badge/products-1142-green)
 ![stores](https://img.shields.io/badge/stores-2-purple)
-![data_freshness](https://img.shields.io/badge/data_freshness-2026-06-24-orange)
+![data_freshness](https://img.shields.io/badge/data_freshness-2026.06.24-orange)
 <!-- BADGES_END -->
 
 

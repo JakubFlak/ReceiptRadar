@@ -7,7 +7,7 @@ badges = {
     "receipts": ("receipts", data["receipts"], "blue"),
     "products": ("products", data["products"], "green"),
     "stores": ("stores", data["stores"], "purple"),
-    "data_freshness": ("data_freshness", data["data_freshness"], "orange"),
+    "data_freshness": ("data_freshness", data["data_freshness"].replace("-", "."), "orange"),
 }
 
 readme_path = Path("README.md")

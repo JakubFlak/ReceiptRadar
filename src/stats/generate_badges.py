@@ -7,7 +7,7 @@ badges = {
     "receipts": ("receipts", data["receipts"], "blue"),
     "products": ("products", data["products"], "green"),
     "stores": ("stores", data["stores"], "purple"),
-    "data_freshness": ("freshness", data["data_freshness"], "orange"),
+    "data_freshness": ("data_freshness", data["data_freshness"], "orange"),
 }
 
 readme_path = Path("README.md")
@@ -23,9 +23,16 @@ badge_block = "\n".join(badge_lines)
 start = "<!-- BADGES_START -->"
 end = "<!-- BADGES_END -->"
 
-new_readme = readme.split(start)[0] + \
-              start + "\n" + \
-              badge_block + "\n" + \
-              end
+old_block = readme[
+    readme.index(start):readme.index(end) + len(end)
+]
+
+new_block = (
+    f"{start}\n"
+    f"{badge_block}\n"
+    f"{end}"
+)
+
+new_readme = readme.replace(old_block, new_block)
 
 readme_path.write_text(new_readme)

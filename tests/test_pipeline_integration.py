@@ -28,9 +28,9 @@ def test_run_pipeline_on_isolated_test_data(tmp_path, monkeypatch):
         encoding="utf-8",
     )
     (root / "data" / "mappings" / "products.csv").write_text(
-        "store,raw_name,clean_name,category,subcategory\n"
-        "biedronka,Milk,Milk,Dairy,Milk\n"
-        "lidl,Bread,Bread,Bakery,Bread\n",
+        "store,raw_name,clean_name,category,subcategory,product_id,is_food\n"
+        "biedronka,Milk,Milk,Dairy,Milk,12345,true\n"
+        "lidl,Bread,Bread,Bakery,Bread,12346,true\n",
         encoding="utf-8",
     )
 

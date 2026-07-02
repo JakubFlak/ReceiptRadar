@@ -7,8 +7,8 @@ def test_read_mapping_df_reads_csv_with_commas(tmp_path):
     mapping_path = tmp_path / "products.csv"
     mapping_path.parent.mkdir(parents=True, exist_ok=True)
     mapping_path.write_text(
-        "store,raw_name,clean_name,category,subcategory\n"
-        "biedronka,Milk,Milk,Dairy,Milk\n",
+        "store,raw_name,clean_name,category,subcategory,product_id,is_food\n"
+        "biedronka,Milk,Milk,Dairy,Milk,12345,true\n",
         encoding="utf-8",
     )
 

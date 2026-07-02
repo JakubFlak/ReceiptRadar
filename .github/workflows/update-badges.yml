@@ -1,0 +1,24 @@
+name: Update badges
+
+on:
+  push:
+    paths:
+      - data/stats/project_stats.json
+
+jobs:
+  badges:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate badges
+        run: python src/stats/generate_badges.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "update badges" || exit 0
+          git push

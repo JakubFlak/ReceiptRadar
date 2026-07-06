@@ -4,7 +4,7 @@ import re
 
 
 # ==========================
-# PUBLIC API (USED BY PIPELINE)
+# PUBLIC API
 # ==========================
 def parse_lidl_files(path: Path):
 
@@ -46,7 +46,7 @@ def parse_receipt(text: str, file_name: str):
             break
 
     # --------------------------
-    # RECEIPT META
+    # RECEIPT METADATa
     # --------------------------
     receipt_number = None
     receipt_time = None

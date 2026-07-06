@@ -65,14 +65,10 @@ def load_dim_products():
     mapping_df.to_csv(MAPPING_PATH, index=False)
 
     with duckdb.connect(DB_PATH) as con:
-
         con.register("mapping_temp", mapping_df)
-
         con.execute("""
             CREATE OR REPLACE TABLE dim_products AS
             SELECT * FROM mapping_temp
         """)
-
         backfill_bronze_product_ids(con)
-
         con.close()

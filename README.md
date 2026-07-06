@@ -109,6 +109,6 @@ pytest
 
 ## Useful commands
 
-- `python -m src.pipeline.run_pipeline` — run the full pipeline
-- `pytest` — run tests
-- `pip install -r requirements.txt` — install dependencies
+- `python -m src.pipeline.run_pipeline` - run the full pipeline
+- `pytest` - run tests
+- `pip install -r requirements.txt` - install dependencies

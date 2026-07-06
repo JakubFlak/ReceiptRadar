@@ -9,4 +9,4 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 .notebook_checkpoints/
-notebooks/
+.notebooks/

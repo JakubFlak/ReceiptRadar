@@ -5,6 +5,7 @@ WITH receipt_totals AS (
     SELECT
         receipt_id,
         date,
+        store,
         SUM(final_price) AS receipt_total
 
     FROM silver_receipt_items
@@ -13,12 +14,17 @@ WITH receipt_totals AS (
 
     GROUP BY
         receipt_id,
-        date
+        date,
+        store
 
 )
 
 SELECT
+    ((EXTRACT(DOW FROM date) + 6) % 7) AS weekday_order,
+    
     DAYNAME(date) AS day_of_week,
+
+    store,
 
     COUNT(*) AS receipt_count,
 
@@ -28,6 +34,11 @@ SELECT
 
 FROM receipt_totals
 
-GROUP BY day_of_week
+GROUP BY
+    weekday_order,
+    day_of_week,
+    store
 
-ORDER BY total_spent DESC;
+ORDER BY
+    weekday_order,
+    store;

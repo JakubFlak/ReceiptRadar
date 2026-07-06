@@ -4,6 +4,7 @@ WITH product_weeks AS (
 
     SELECT DISTINCT
         clean_name,
+        store,
         DATE_TRUNC('week', date) AS week_start
 
     FROM silver_receipt_items
@@ -14,14 +15,22 @@ WITH product_weeks AS (
 
 total_weeks AS (
 
-    SELECT COUNT(DISTINCT DATE_TRUNC('week', date)) AS total_weeks
+    SELECT
+        store,
+        COUNT(DISTINCT DATE_TRUNC('week', date)) AS total_weeks
+
     FROM silver_receipt_items
+
     WHERE is_food = true
+
+    GROUP BY store
 
 )
 
 SELECT
     pw.clean_name,
+
+    pw.store,
 
     COUNT(*) AS weeks_present,
 
@@ -34,12 +43,15 @@ SELECT
 
 FROM product_weeks pw
 
-CROSS JOIN total_weeks tw
+JOIN total_weeks tw
+    ON pw.store = tw.store
 
 GROUP BY
     pw.clean_name,
+    pw.store,
     tw.total_weeks
 
 ORDER BY
+    pw.store,
     weekly_presence_pct DESC,
     weeks_present DESC;

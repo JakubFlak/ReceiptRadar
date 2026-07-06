@@ -5,6 +5,7 @@ WITH receipt_totals AS (
     SELECT
         receipt_id,
         date,
+        store,
         SUM(final_price) AS receipt_total
 
     FROM silver_receipt_items
@@ -13,23 +14,27 @@ WITH receipt_totals AS (
 
     GROUP BY
         receipt_id,
-        date
+        date,
+        store
 
 )
 
 SELECT
     CASE
-        WHEN EXTRACT(hour FROM date) BETWEEN 5 AND 10
-            THEN 'Morning'
+        WHEN EXTRACT(hour FROM date) BETWEEN 5 AND 10 THEN 1
+        WHEN EXTRACT(hour FROM date) BETWEEN 11 AND 15 THEN 2
+        WHEN EXTRACT(hour FROM date) BETWEEN 16 AND 20 THEN 3
+        ELSE 4
+    END AS time_of_day_order,
 
-        WHEN EXTRACT(hour FROM date) BETWEEN 11 AND 15
-            THEN 'Afternoon'
-
-        WHEN EXTRACT(hour FROM date) BETWEEN 16 AND 20
-            THEN 'Evening'
-
+    CASE
+        WHEN EXTRACT(hour FROM date) BETWEEN 5 AND 10 THEN 'Morning'
+        WHEN EXTRACT(hour FROM date) BETWEEN 11 AND 15 THEN 'Afternoon'
+        WHEN EXTRACT(hour FROM date) BETWEEN 16 AND 20 THEN 'Evening'
         ELSE 'Night'
     END AS time_of_day,
+
+    store,
 
     COUNT(*) AS receipt_count,
 
@@ -39,6 +44,11 @@ SELECT
 
 FROM receipt_totals
 
-GROUP BY time_of_day
+GROUP BY
+    time_of_day_order,
+    time_of_day,
+    store
 
-ORDER BY receipt_count DESC;
+ORDER BY
+    time_of_day_order,
+    store;

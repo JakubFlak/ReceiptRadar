@@ -5,6 +5,7 @@ What is average basket size?
 How much discount did I get?
 How many products bought?
 */
+
 CREATE OR REPLACE VIEW gold_weekly_spending AS
 
 WITH receipt_totals AS (
@@ -13,18 +14,27 @@ WITH receipt_totals AS (
         receipt_id,
         CAST(date AS DATE) AS receipt_date,
 
+        store,
+
         SUM(final_price) AS receipt_total,
         SUM(discount) AS receipt_discount,
         COUNT(*) AS item_count
 
     FROM silver_receipt_items
+
     WHERE is_food = true
-    GROUP BY receipt_id, CAST(date AS DATE)
+
+    GROUP BY
+        receipt_id,
+        CAST(date AS DATE),
+        store
 
 )
 
 SELECT
     DATE_TRUNC('week', receipt_date)::DATE AS week_start,
+
+    store,
 
     COUNT(receipt_id) AS receipt_count,
 
@@ -42,5 +52,10 @@ SELECT
 
 FROM receipt_totals
 
-GROUP BY 1
-ORDER BY 1;
+GROUP BY
+    1,
+    2
+
+ORDER BY
+    1,
+    2;

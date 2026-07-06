@@ -4,6 +4,8 @@ WITH base AS (
 
     SELECT
         CAST(date AS DATE) AS receipt_date,
+        store,
+
         category,
         subcategory,
 
@@ -12,12 +14,15 @@ WITH base AS (
         discount
 
     FROM silver_receipt_items
+
     WHERE is_food = true
 
 )
 
 SELECT
     DATE_TRUNC('month', receipt_date)::DATE AS month_start,
+
+    store,
 
     category,
     subcategory,
@@ -33,8 +38,12 @@ SELECT
 FROM base
 
 GROUP BY
-    1, 2, 3
+    1,
+    2,
+    3,
+    4
 
 ORDER BY
     month_start,
+    store,
     total_spent DESC;

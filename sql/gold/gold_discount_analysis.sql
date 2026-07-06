@@ -7,17 +7,22 @@ WITH base AS (
 
         CAST(date AS DATE) AS receipt_date,
 
+        store,
+
         total_price,
         discount,
         final_price
 
     FROM silver_receipt_items
+
     WHERE is_food = true
 
 )
 
 SELECT
     DATE_TRUNC('month', receipt_date)::DATE AS month_start,
+
+    store,
 
     ROUND(SUM(total_price), 2) AS gross_spend,
 
@@ -34,5 +39,10 @@ SELECT
 
 FROM base
 
-GROUP BY 1
-ORDER BY 1;
+GROUP BY
+    1,
+    2
+
+ORDER BY
+    1,
+    2;
